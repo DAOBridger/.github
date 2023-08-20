@@ -6,3 +6,11 @@ Steps to setup hyperlane on linea:
 - put all the address of the transaction validators in the `config/multisig_ism.ts` file in the lineagoerli section.
 - in the `config/start_blocks.ts` file, update the current block height of linea goerli network.
 - deploy the hyperlane contracts using `yarn ts-node scripts/deploy-hyperlane.ts --local lineagoerli --remotes ${put the chains where you want to support cross chain messages} --key ${deployer's private key}` in our case `yarn ts-node scripts/deploy-hyperlane.ts --local lineagoerli --remotes goerli sepolia --key ${deployer's private key}`
+
+Steps to run the hyperlane validator and relayer:
+
+- clone the hyperlane-binaries repo from github from `https://github.com/DAOBridger/hyperlane-binaries`
+- build the binaries using `cargo build --release --bin validator` & `cargo build --release --bin relayer`
+- copy the validator.env.template file to validator.env file using `cp validator.env.template validator.env` and fill/update all env variables.
+- copy the relayer.env.template file to relayer.env file using `cp relayer.env.template relayer.env` and fill/update all env variables.
+- run the validator in terminal 1 using `env $(cat validator.env | grep -v "#" | xargs) ./target/release/validator` and relayer in terminal 2 using `env $(cat relayer.env | grep -v "#" | xargs) ./target/release/relayer`
