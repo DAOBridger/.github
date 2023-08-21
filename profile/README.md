@@ -76,6 +76,35 @@ DAOBridger is a robust solution designed to support cross-chain DAO functionalit
 
 ## Conclusion
 
-By following the above steps, you will successfully deploy the governor contract to the linea testnet, goerli, and sepolia chains. Users will now be able to engage in cross-chain DAO activities, including creating proposals and voting without transferring their governance tokens between chains. If you need further assistance or have any questions, please refer to the documentation or contact support.
+By following the above steps, you will successfully deploy the governor contract to the linea testnet, goerli, and sepolia chains. Users will now be able to engage in cross-chain DAO activities, including creating proposals and voting without transferring their governance tokens between chains. If you need further assistance or have any questions, please contact contact@yashgoyal.dev.
+
+---
+
+## Deployed contract addresses
+
+### Linea Goerli
+
+- Hyperlane Mailbox: `0xfa9057F23949A70d8c08d3bc7EaeBe6D593B7Ec3`
+- Hyperlane Interchain Gas Paymaster: `0x8E93E48A05b21f9367e5a45fc037683040Fb81ed`
+- Governor Contract: `0x33d0360B653127424D4dEF3Aeeac16E30DE51050`
+- Governance Token: `0xffF278B0c72AFa2ECC56efAba0E54Df8eA56965B`
+
+### Goerli
+
+- Governor Contract: `0xc64d6cedC531da06F9688C11cF5288d8B0c19920`
+- Governance Token: `0x3c9BA54eE1165e60830CA82d840A67D10E23FCD4`
+
+### Sepolia
+
+- Governor Contract: `0xc64d6cedC531da06F9688C11cF5288d8B0c19920`
+- Governance Token: `0x3c9BA54eE1165e60830CA82d840A67D10E23FCD4`
+
+---
+
+## Technologies Used
+
+- **Linea**: I deployed the governor and the hyperlane contracts on linea.
+- **Truffle**: I used truffle to develop, test, and deploy the governor and governance token contracts.
+- **Infura**: I used infura to connect to linea goerli, goerli and sepolia networks to deploy and test the smart contracts.
 
 ---
