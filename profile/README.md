@@ -104,8 +104,22 @@ By following the above steps, you will successfully deploy the governor contract
 ## Technologies Used
 
 - **Linea**: I deployed the governor and the hyperlane contracts on linea.
+  - https://github.com/DAOBridger/contracts/blob/main/truffle-config.js#L69
+  - https://github.com/DAOBridger/contracts/blob/main/detailStore/Governor-lineagoerli.json
+  - https://github.com/DAOBridger/hyperlane-deploy/blob/main/config/chains.ts#L46
+  - https://github.com/DAOBridger/hyperlane-deploy/blob/main/config/multisig_ism.ts#L21
+  - https://github.com/DAOBridger/hyperlane-deploy/blob/main/config/start_blocks.ts#L25
+  - https://github.com/DAOBridger/hyperlane-binaries/blob/main/relayer.env.template#L6
+  - https://github.com/DAOBridger/hyperlane-binaries/blob/main/validator.env.template#L1
 - **Truffle**: I used truffle to develop, test, and deploy the governor and governance token contracts.
+  - https://github.com/DAOBridger/contracts
 - **Infura**: I used infura to connect to linea goerli, goerli and sepolia networks to deploy and test the smart contracts.
+  - https://github.com/DAOBridger/contracts/blob/main/truffle-config.js#L55
+  - https://github.com/DAOBridger/contracts/blob/main/.env.template#L1
+  - https://github.com/DAOBridger/hyperlane-deploy/blob/main/config/chains.ts#L52
 - **Hyperlane**: I used hyperlane for cross chain communication between different governor contracts.
+  - https://github.com/DAOBridger/hyperlane-deploy/tree/main
+  - https://github.com/DAOBridger/hyperlane-binaries
+  - https://github.com/DAOBridger/contracts/blob/main/contracts/Governor.sol#L9
 
 ---
