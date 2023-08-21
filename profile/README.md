@@ -84,20 +84,20 @@ By following the above steps, you will successfully deploy the governor contract
 
 ### Linea Goerli
 
-- Hyperlane Mailbox: `0xfa9057F23949A70d8c08d3bc7EaeBe6D593B7Ec3`
-- Hyperlane Interchain Gas Paymaster: `0x8E93E48A05b21f9367e5a45fc037683040Fb81ed`
-- Governor Contract: `0x33d0360B653127424D4dEF3Aeeac16E30DE51050`
-- Governance Token: `0xffF278B0c72AFa2ECC56efAba0E54Df8eA56965B`
+- Hyperlane Mailbox: [`0xfa9057F23949A70d8c08d3bc7EaeBe6D593B7Ec3`](https://explorer.goerli.linea.build/address/0xfa9057F23949A70d8c08d3bc7EaeBe6D593B7Ec3)
+- Hyperlane Interchain Gas Paymaster: [`0x8E93E48A05b21f9367e5a45fc037683040Fb81ed`](https://explorer.goerli.linea.build/address/0x8E93E48A05b21f9367e5a45fc037683040Fb81ed)
+- Governor Contract: [`0x33d0360B653127424D4dEF3Aeeac16E30DE51050`](https://explorer.goerli.linea.build/address/0x33d0360B653127424D4dEF3Aeeac16E30DE51050)
+- Governance Token: [`0xffF278B0c72AFa2ECC56efAba0E54Df8eA56965B`](https://explorer.goerli.linea.build/address/0xffF278B0c72AFa2ECC56efAba0E54Df8eA56965B)
 
 ### Goerli
 
-- Governor Contract: `0xc64d6cedC531da06F9688C11cF5288d8B0c19920`
-- Governance Token: `0x3c9BA54eE1165e60830CA82d840A67D10E23FCD4`
+- Governor Contract: [`0xc64d6cedC531da06F9688C11cF5288d8B0c19920`](https://goerli.etherscan.io/address/0xc64d6cedC531da06F9688C11cF5288d8B0c19920)
+- Governance Token: [`0x3c9BA54eE1165e60830CA82d840A67D10E23FCD4`](https://goerli.etherscan.io/address/0x3c9BA54eE1165e60830CA82d840A67D10E23FCD4)
 
 ### Sepolia
 
-- Governor Contract: `0xc64d6cedC531da06F9688C11cF5288d8B0c19920`
-- Governance Token: `0x3c9BA54eE1165e60830CA82d840A67D10E23FCD4`
+- Governor Contract: [`0xc64d6cedC531da06F9688C11cF5288d8B0c19920`](https://sepolia.etherscan.io/address/0xc64d6cedC531da06F9688C11cF5288d8B0c19920)
+- Governance Token: [`0x3c9BA54eE1165e60830CA82d840A67D10E23FCD4`](https://sepolia.etherscan.io/address/0x3c9BA54eE1165e60830CA82d840A67D10E23FCD4)
 
 ---
 
