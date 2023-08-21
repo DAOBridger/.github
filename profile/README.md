@@ -61,7 +61,11 @@ DAOBridger is a robust solution designed to support cross-chain DAO functionalit
    ```bash
    cp -r ../hyperlane-deploy/artifacts ./hyperlane-artifacts
    ```
-4. **Run Migration Scripts:** Perform the migration steps across the different networks as follows:
+4. **Configure Environment Variables:** Copy the .env.template file to .env and fill the Infura API key and the Mnemonic:
+   ```bash
+   cp .env.template .env
+   ```
+5. **Run Migration Scripts:** Perform the migration steps across the different networks as follows:
    ```bash
    npx truffle migrate --network lineagoerli --tokenAddress $tokenAddress
    npx truffle migrate --network goerli --tokenAddress $tokenAddress
