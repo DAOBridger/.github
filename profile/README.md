@@ -106,5 +106,6 @@ By following the above steps, you will successfully deploy the governor contract
 - **Linea**: I deployed the governor and the hyperlane contracts on linea.
 - **Truffle**: I used truffle to develop, test, and deploy the governor and governance token contracts.
 - **Infura**: I used infura to connect to linea goerli, goerli and sepolia networks to deploy and test the smart contracts.
+- **Hyperlane**: I used hyperlane for cross chain communication between different governor contracts.
 
 ---
